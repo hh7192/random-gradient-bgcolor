@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, #58dcba, #cdf729, #68c221);
+  transition: all 0.5s;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-weight: bold;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  background-color: #b9b9b9;
+}
